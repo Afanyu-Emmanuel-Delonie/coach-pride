@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Abe Pride - Personal Brand Coach specializing in graphic design, WhatsApp TV creation, social media boosting, affiliate marketing, and relationship therapy.">
+    <meta name="keywords" content="Abe Pride, personal brand coach, graphic design, WhatsApp TV, social media, affiliate marketing, relationship therapy">
+         <!-- Favicon -->
+  <link rel="icon" type="assets\img\del.jpg" href="assets/img/coach-pride.jpg">
+  
+    <title>Abe Pride | Personal Brand Coach</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body class="light-mode">
+    <div class="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <label class="switch">
+            <input type="checkbox" id="theme-switch">
+            <span class="slider round"></span>
+        </label>
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- pre - loader -->
+
+    <div class="preloader">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+        
+        <div class="preloader-content">
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 17L12 22L22 17" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 12L12 17L22 12" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            
+            <div class="loader-animation">
+                <div class="loader-progress"></div>
+            </div>
+            
+            <div class="quote-container">
+                <div class="quote-text"></div>
+                <div class="quote-author"></div>
+            </div>
+        </div>
+    </div>
+      
+
+
+
+    <!-- Tip of the day -->
+    <div class="tip-of-the-day" id="tipBox">
+        <div class="tip-content">
+            <h4>Tip of the Day</h4>
+            <p id="dailyTip"></p>
+        </div>
+        <button class="close-tip" id="closeTip"><i class="fas fa-times"></i></button>
+    </div>
+    
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1> Coach <span style="color: #222222;">Pride</span></h1>
+            </div>
+            <nav>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="block.html">About</a></li>
+                    <li><a href="profile.html" >Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="animated-heading">Transform Your <span class="highlight">Brand</span></h2>
+                <h3 class="animated-subheading">Elevate Your <span class="highlight">Presence</span></h3>
+                <p>Unlock your full potential with strategic personal branding</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn primary-btn">Book a Session</a>
+                    <a href="services.html" class="btn secondary-btn">Explore Services</a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1200">
+                <div class="image-container">
+                    <div class="glassmorphism-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="container">
+            <div class="intro-content" data-aos="fade-up">
+                <h2>Meet <span class="highlight">Abe Pride</span></h2>
+                <p>A visionary brand coach with over 5 years of experience transforming individuals and businesses. Abe's unique approach combines creative design, digital marketing expertise, and relationship psychology to build authentic, powerful personal brands that resonate and convert.</p>
+                <div class="stats-container">
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
+                        <span class="stat-number">200+</span>
+                        <span class="stat-text">Clients</span>
+                    </div>
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-text">Years</span>
+                    </div>
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-text">Success Rate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-preview">
+        <div class="container">
+            <h2 data-aos="fade-up">Specialized <span class="highlight">Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Professional training, custom design solutions, and print services to elevate your visual identity.</p>
+                    <a href="services.html#graphic-design" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp TV</h3>
+                    <p>Create and monetize engaging WhatsApp TV channels to reach your audience directly and build community.</p>
+                    <a href="services.html#whatsapp-tv" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Social Media Boosting</h3>
+                    <p>Strategic growth tactics to increase your followers, engagement, and influence across platforms.</p>
+                    <a href="services.html#social-media" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Affiliate Marketing</h3>
+                    <p>Learn how to generate passive income through strategic partnerships and affiliate programs.</p>
+                    <a href="services.html#affiliate-marketing" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Relationship Therapy</h3>
+                    <p>Build stronger personal and professional relationships with expert guidance and strategies.</p>
+                    <a href="services.html#relationship-therapy" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Ready to Transform Your Brand?</h2>
+                <p>Join Abe's exclusive WhatsApp TV channel for daily tips, insights, and opportunities.</p>
+                <a href="https://wa.link/lscyjk" target="_blank" class="btn primary-btn">Join WhatsApp TV</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 data-aos="fade-up">Success Stories from <span class="highlight"> Young Visionaries</span></h2>
+            <div class="testimonial-slider" id="testimonialSlider">
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>Thanks to Coach Pride, I launched my own design brand in Buea. Today, I handle printing contracts for events and schools across the region!</p>
+                        <div class="client-info">
+                            <div class="client-name">Linda Mbeng</div>
+                            <div class="client-role">Student & Graphic Designer</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>With Coach Pride's WhatsApp TV coaching, I turned my daily status into a digital shop. I now earn more than a full-time job right here in Yaoundé!</p>
+                        <div class="client-info">
+                            <div class="client-name">Cedric Talla</div>
+                            <div class="client-role">Digital Entrepreneur</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>Coach Pride’s guidance on affiliate marketing helped me scale from zero to steady weekly earnings as a university student. It changed my mindset!</p>
+                        <div class="client-info">
+                            <div class="client-name">Brenda Nkwain</div>
+                            <div class="client-role">Affiliate Marketer, UBa</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>Coach Pride saved my relationship! His advice helped my partner and I improve communication and trust, which has also positively impacted our business partnership.</p>
+                        <div class="client-info">
+                            <div class="client-name">David & Lisa Thompson</div>
+                            <div class="client-role">Business Owners</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>After working with Coach Pride, I improved not only my personal relationships but also learned how to manage my team better. My business is growing, and so is my peace of mind!</p>
+                        <div class="client-info">
+                            <div class="client-name">Alex Ngwafor</div>
+                            <div class="client-role">CEO, Tech Innovators</div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="slider-controls">
+                <button id="prevBtn" class="slider-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots" id="sliderDots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button id="nextBtn" class="slider-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+    
+
+    <div class="floating-socials">
+        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon tiktok"><i class="fab fa-tiktok"></i></a>
+    </div>
+
+    <div class="floating-whatsapp">
+        <a  href="https://wa.me/250671558169?text=Hey%20Coach%20Pride!%20I%20just%20came%20across%20your%20website%20and%20felt%20inspired%20to%20reach%20out.%20I'd%20love%20to%20learn%20more%20about%20your%20coaching%20programs.%20Looking%20forward%20to%20connecting!%20Cheers%2C%20__________"  class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+            <span class="whatsapp-tooltip">Chat with Coach Pride</span>
+        </a>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Abe Pride</h2>
+                    <p>Personal Brand Coach</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="block.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="services.html#graphic-design">Graphic Design</a></li>
+                            <li><a href="services.html#whatsapp-tv">WhatsApp TV</a></li>
+                            <li><a href="services.html#social-media">Social Media</a></li>
+                            <li><a href="services.html#affiliate-marketing">Affiliate Marketing</a></li>
+                            <li><a href="services.html#relationship-therapy">Relationship Therapy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Connect</h3>
+                        <div class="footer-socials">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a   href="https://wa.me/237671558169?text=Hey%20Coach%20Pride!%20I%20just%20came%20across%20your%20website%20and%20felt%20inspired%20to%20reach%20out.%20I'd%20love%20to%20learn%20more%20about%20your%20coaching%20programs.%20Looking%20forward%20to%20connecting!%20Cheers%2C%20__________"  target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Coach Pride. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+       // Quotes array
+       const quotes = [
+       { text: "Behind every successful business is a team of experts who understand what truly drives growth.", author: "Business Growth Expert" },
+       { text: "The cost of hiring a professional is nothing compared to the cost of hiring an amateur.", author: "Warren Buffett" },
+       { text: "Your business deserves the same level of expertise that helped build industry leaders.", author: "Marketing Specialist" },
+       { text: "The difference between a good business and a great one is often who you choose to partner with.", author: "Business Strategist" },
+       { text: "Investing in professional help isn't an expense—it's the most valuable investment you'll make in your business.", author: "Success Coach" },
+       { text: "When you have the right expert in your corner, impossible business challenges become merely difficult.", author: "Entrepreneurship Mentor" },
+       { text: "The smartest business decision you can make is knowing when to seek expertise beyond your own.", author: "Leadership Expert" },
+       { text: "Partnership with the right professional doesn't cost—it pays dividends for years to come.", author: "Financial Advisor" },
+       { text: "The businesses that thrive are those that recognize their limitations and seek expert guidance to overcome them.", author: "Business Consultant" },
+       { text: "Your competition is already getting expert help. Can you afford not to?", author: "Strategic Advisor" }
+   ];
+       // Elements
+       const quoteText = document.querySelector(".quote-text");
+       const quoteAuthor = document.querySelector(".quote-author");
+       
+       if (quoteText && quoteAuthor) {
+           // Select a random quote
+           const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+           
+           // Update the quote text and author
+           quoteText.textContent = randomQuote.text;
+           quoteAuthor.textContent = `— ${randomQuote.author}`;
+       }
+       
+       // Handle preloader fadeout
+       window.addEventListener("load", function() {
+           const preloader = document.querySelector(".preloader");
+           
+           if (preloader) {
+               // Add class for transition effect
+               setTimeout(() => {
+                   preloader.classList.add("fade-out");
+                   preloader.style.opacity = "0";
+               }, 8000);
+               
+               // Hide preloader after transition
+               setTimeout(() => {
+                   preloader.style.display = "none";
+               }, 2000);
+           }
+       });
+   });
+       </script>
+</body>
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Abe Pride's journey, philosophy, and success stories in personal brand coaching.">
+    <meta name="keywords" content="Abe Pride, personal brand coach, about, philosophy, brand coaching journey">
+     <!-- Favicon -->
+  <link rel="icon" type="assets\img\del.jpg" href="assets/img/coach-pride.jpg">
+    <title>About | Abe Pride</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body class="light-mode">
+    <div class="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <label class="switch">
+            <input type="checkbox" id="theme-switch">
+            <span class="slider round"></span>
+        </label>
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- pre - loader -->
+
+    <div class="preloader">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+        
+        <div class="preloader-content">
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 17L12 22L22 17" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 12L12 17L22 12" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            
+            <div class="loader-animation">
+                <div class="loader-progress"></div>
+            </div>
+            
+            <div class="quote-container">
+                <div class="quote-text"></div>
+                <div class="quote-author"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tip-of-the-day" id="tipBox" style="display: none;">
+        <div class="tip-content">
+            <h4>Tip of the Day</h4>
+            <p id="dailyTip"></p>
+        </div>
+        <button class="close-tip" id="closeTip">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+    
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1> Coach <span style="color: #222222;">Pride</span></h1>
+            </div>
+            <nav>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="block.html" class="active">About</a></li>
+                    <li><a href="profile.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-banner">
+        <div class="container">
+            <h1 data-aos="fade-up">About <span class="highlight">Coach Pride</span></h1>
+            <p data-aos="fade-up" data-aos-delay="200">The story, philosophy, and vision behind the brand</p>
+        </div>
+    </section>
+
+    <section class="about-story">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="image-container">
+                        <div class="glassmorphism-overlay"></div>
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <h2>The <span class="highlight">Journey</span></h2>
+                    <p>Abe Pride's path to becoming a leading personal brand coach began over 15 years ago when he recognized a critical gap in the market: many talented professionals struggled to effectively communicate their value and build a recognizable brand.</p>
+                    <p>After experiencing his own challenges in establishing his identity in the competitive graphic design industry, Abe developed a unique methodology that combines visual storytelling, strategic marketing, and authentic relationship building.</p>
+                    <p>What started as a small consultancy has grown into a comprehensive brand coaching practice that has transformed the lives and businesses of over 500 clients worldwide.</p>
+                    <div class="quote-block">
+                        <i class="fas fa-quote-left"></i>
+                        <blockquote>Your personal brand is the story people tell about you when you're not in the room. My mission is to help you write that story.</blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="philosophy">
+        <div class="container">
+            <h2 data-aos="fade-up">My <span class="highlight">Philosophy</span></h2>
+            <div class="philosophy-grid">
+                <div class="philosophy-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-fingerprint"></i>
+                    </div>
+                    <h3>Authenticity First</h3>
+                    <p>Your brand must be a genuine reflection of who you are. Authenticity creates trust, and trust builds lasting relationships.</p>
+                </div>
+                <div class="philosophy-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Strategic Visibility</h3>
+                    <p>Being seen by the right people, in the right places, with the right message is the foundation of effective personal branding.</p>
+                </div>
+                <div class="philosophy-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Relationship-Centered</h3>
+                    <p>Strong brands are built on strong relationships. Every interaction is an opportunity to strengthen your brand connection.</p>
+                </div>
+                <div class="philosophy-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Continuous Evolution</h3>
+                    <p>Your brand should grow as you grow. Embracing change while maintaining your core values creates a dynamic, resilient brand.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="timeline">
+        <div class="container">
+            <h2 data-aos="fade-up">The <span class="highlight">Journey</span></h2>
+            <div class="timeline-container">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020</div>
+                    <div class="timeline-content">
+                        <h3>The Beginning</h3>
+                        <p>Abe launches his graphic design studio and discovers his passion for helping clients develop their brand identity.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021</div>
+                    <div class="timeline-content">
+                        <h3>Expanding Horizons</h3>
+                        <p>After helping dozens of clients transform their visual identity, Abe expands into social media strategy and digital marketing.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <h3>The WhatsApp Revolution</h3>
+                        <p>Abe pioneers innovative strategies for WhatsApp marketing, helping clients build engaged communities and monetize their presence.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>Holistic Approach</h3>
+                        <p>Recognizing the connection between personal relationships and brand success, Abe integrates relationship coaching into his services.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>Global Expansion</h3>
+                        <p>Abe's coaching practice goes fully digital, reaching clients across 25+ countries and expanding into affiliate marketing strategies.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Today</div>
+                    <div class="timeline-content">
+                        <h3>The Future</h3>
+                        <p>Continuing to innovate and expand, Abe is dedicated to helping more individuals and businesses build powerful, authentic brands.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-grid">
+        <div class="container">
+            <h2 data-aos="fade-up">Success <span class="highlight">Stories</span></h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>Working with Abe transformed not just my brand, but my entire approach to business. His WhatsApp TV strategy helped me build a community of over 5,000 engaged followers who now generate consistent revenue through my affiliate programs.</p>
+                        <div class="client-info">
+                            <div class="client-name">James Wilson</div>
+                            <div class="client-role">Fitness Entrepreneur</div>
+                        </div>
+                        <div class="results">
+                            <span class="result-item">5,000+ Followers</span>
+                            <span class="result-item">$8,500 Monthly Revenue</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                  
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>I was struggling to stand out in the crowded beauty industry until I met Abe. His graphic design expertise and social media strategies completely revitalized my brand. Within 6 months, my Instagram following tripled and my client bookings increased by 200%.</p>
+                        <div class="client-info">
+                            <div class="client-name">Maria Rodriguez</div>
+                            <div class="client-role">Beauty Influencer</div>
+                        </div>
+                        <div class="results">
+                            <span class="result-item">300% Social Growth</span>
+                            <span class="result-item">200% Revenue Increase</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                  
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>Abe's relationship therapy sessions saved my marriage and, surprisingly, transformed my business relationships too. Learning to communicate effectively and build authentic connections has been the key to both personal happiness and professional success.</p>
+                        <div class="client-info">
+                            <div class="client-name">Robert & Lisa Chen</div>
+                            <div class="client-role">Small Business Owners</div>
+                        </div>
+                        <div class="results">
+                            <span class="result-item">Improved Relationships</span>
+                            <span class="result-item">40% Business Growth</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Ready to Write Your Success Story?</h2>
+                <p>Join the hundreds of individuals who have transformed their personal brand with Abe's guidance.</p>
+                <a href="contact.html" class="btn primary-btn">Start Your Journey</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="floating-socials">
+        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon tiktok"><i class="fab fa-tiktok"></i></a>
+    </div>
+
+    <div class="floating-whatsapp">
+        <a  href="https://wa.me/250671558169?text=Hey%20Coach%20Pride!%20I%20just%20came%20across%20your%20website%20and%20felt%20inspired%20to%20reach%20out.%20I'd%20love%20to%20learn%20more%20about%20your%20coaching%20programs.%20Looking%20forward%20to%20connecting!%20Cheers%2C%20__________"  class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+            <span class="whatsapp-tooltip">Chat with Coach Pride</span>
+        </a>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Abe Pride</h2>
+                    <p>Personal Brand Coach</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="block.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="services.html#graphic-design">Graphic Design</a></li>
+                            <li><a href="services.html#whatsapp-tv">WhatsApp TV</a></li>
+                            <li><a href="services.html#social-media">Social Media</a></li>
+                            <li><a href="services.html#affiliate-marketing">Affiliate Marketing</a></li>
+                            <li><a href="services.html#relationship-therapy">Relationship Therapy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Connect</h3>
+                        <div class="footer-socials">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Coach Pride. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+       // Quotes array
+       const quotes = [
+       { text: "Behind every successful business is a team of experts who understand what truly drives growth.", author: "Business Growth Expert" },
+       { text: "The cost of hiring a professional is nothing compared to the cost of hiring an amateur.", author: "Warren Buffett" },
+       { text: "Your business deserves the same level of expertise that helped build industry leaders.", author: "Marketing Specialist" },
+       { text: "The difference between a good business and a great one is often who you choose to partner with.", author: "Business Strategist" },
+       { text: "Investing in professional help isn't an expense—it's the most valuable investment you'll make in your business.", author: "Success Coach" },
+       { text: "When you have the right expert in your corner, impossible business challenges become merely difficult.", author: "Entrepreneurship Mentor" },
+       { text: "The smartest business decision you can make is knowing when to seek expertise beyond your own.", author: "Leadership Expert" },
+       { text: "Partnership with the right professional doesn't cost—it pays dividends for years to come.", author: "Financial Advisor" },
+       { text: "The businesses that thrive are those that recognize their limitations and seek expert guidance to overcome them.", author: "Business Consultant" },
+       { text: "Your competition is already getting expert help. Can you afford not to?", author: "Strategic Advisor" }
+   ];
+       // Elements
+       const quoteText = document.querySelector(".quote-text");
+       const quoteAuthor = document.querySelector(".quote-author");
+       
+       if (quoteText && quoteAuthor) {
+           // Select a random quote
+           const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+           
+           // Update the quote text and author
+           quoteText.textContent = randomQuote.text;
+           quoteAuthor.textContent = `— ${randomQuote.author}`;
+       }
+       
+       // Handle preloader fadeout
+       window.addEventListener("load", function() {
+           const preloader = document.querySelector(".preloader");
+           
+           if (preloader) {
+               // Add class for transition effect
+               setTimeout(() => {
+                   preloader.classList.add("fade-out");
+                   preloader.style.opacity = "0";
+               }, 8000);
+               
+               // Hide preloader after transition
+               setTimeout(() => {
+                   preloader.style.display = "none";
+               }, 2000);
+           }
+       });
+   });
+       </script>
+
+       
+</body>
+</html>
