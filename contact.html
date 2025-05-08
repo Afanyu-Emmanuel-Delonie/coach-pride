@@ -58,7 +58,7 @@
     <header>
         <div class="container">
             <div class="logo">
-                <h1> Coach <span style="color: #222222;">Pride</span></h1>
+                <h1> Coach <span class="highlight">Pride</span></h1>
             </div>
             <nav>
                 <div class="hamburger">
@@ -69,7 +69,7 @@
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="block.html">About</a></li>
+                    <li><a href="blog.html">About</a></li>
                     <li><a href="profile.html" >Work</a></li>
                     <li><a href="contact.html" class="active">Contact</a></li>
                 </ul>
@@ -79,130 +79,132 @@
 
     <section class="page-banner">
         <div class="container">
-            <h1 data-aos="fade-up">Get in <span class="highlight">Touch</span></h1>
+            <h1 data-aos="fade-up">Get in <span class="highlight-1">Touch</span></h1>
             <p data-aos="fade-up" data-aos-delay="200">Let's start your brand transformation journey today</p>
         </div>
     </section>
-
     <section class="contact-section">
         <div class="container">
-            <div class="contact-grid">
-                <div class="contact-info" data-aos="fade-right">
-                    <h2>Contact <span class="highlight">Information</span></h2>
-                    <p>Ready to transform your personal brand? Reach out through any of these channels:</p>
-                    
-                    <div class="contact-methods">
-                        <div class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fas fa-phone-alt"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h3>Phone</h3>
-                                <p>+237 6 71 55 81 69</p>
-                                <p class="availability">Available 9am-6pm, Monday-Friday</p>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h3>Email</h3>
-                                <p>apridenjeba@gmail.com</p>
-                                <p class="availability">Responses within 24 hours</p>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fab fa-whatsapp"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h3>WhatsApp</h3>
-                                <p> +237 6 71 55 81 69 </p>
-                                <p class="availability">Fastest response time</p>
-                            </div>
-                        </div>
-                        
-                    
-                    </div>
-                    
-                    <div class="social-connect">
-                        <h3>Connect on Social</h3>
-                        <div class="social-icons">
-                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
-                        </div>
-                    </div>
+          <div class="contact-grid">
+            <!-- Contact Information -->
+            <div class="contact-info">
+              <h2>Contact <span class="highlight">Information</span></h2>
+              <p>Ready to transform your personal brand? Reach out through any of these channels:</p>
+              
+              <div class="contact-methods">
+                <div class="contact-method">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div class="contact-details">
+                    <h3>Phone</h3>
+                    <p>+237 6 71 55 81 69</p>
+                    <p class="availability">Available 9am-6pm, Monday-Friday</p>
+                  </div>
                 </div>
                 
-                <div class="contact-form-container" data-aos="fade-left">
-                    <h2>Send a <span class="highlight">Message</span></h2>
-                    <form id="contactForm" class="contact-form" onsubmit="sendToWhatsApp(event)">
-                        <div class="form-group">
-                            <div class="input-container">
-                                <input type="text" id="name" name="name" required>
-                                <label for="name">Your Name</label>
-                                <div class="input-underline"></div>
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <div class="input-container">
-                                <input type="email" id="email" name="email" >
-                                <label for="email">Email Address  (optional)</label>
-                                <div class="input-underline"></div>
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <div class="input-container">
-                                <input type="tel" id="phone" name="phone" required>
-                                <label for="phone">Phone Number</label>
-                                <div class="input-underline"></div>
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <div class="select-container">
-                                <select id="service" name="service" required>
-                                    <option value="" disabled selected></option>
-                                    <option value="graphic-design">Graphic Design</option>
-                                    <option value="whatsapp-tv">WhatsApp TV</option>
-                                    <option value="social-media">Social Media Boosting</option>
-                                    <option value="affiliate-marketing">Affiliate Marketing</option>
-                                    <option value="relationship-therapy">Relationship Therapy</option>
-                                    <option value="consultation">General Consultation</option>
-                                </select>
-                                <label for="service">Service of Interest</label>
-                                <div class="select-arrow"><i class="fas fa-chevron-down"></i></div>
-                                <div class="input-underline"></div>
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <div class="textarea-container">
-                                <textarea id="message" name="message" rows="5" required></textarea>
-                                <label for="message">Your Message</label>
-                                <div class="input-underline"></div>
-                            </div>
-                        </div>
-                        
-                        
-                        <button type="submit" class="btn primary-btn submit-btn">
-                            <span>Send Message</span>
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </form>
+                <div class="contact-method">
+                  <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="contact-details">
+                    <h3>Email</h3>
+                    <p>apridenjeba@gmail.com</p>
+                    <p class="availability">Responses within 24 hours</p>
+                  </div>
                 </div>
+                
+                <div class="contact-method">
+                  <div class="contact-icon">
+                    <i class="fab fa-whatsapp"></i>
+                  </div>
+                  <div class="contact-details">
+                    <h3>WhatsApp</h3>
+                    <p>+237 6 71 55 81 69</p>
+                    <p class="availability">Fastest response time</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="social-connect">
+                <h3>Connect on Social</h3>
+                <div class="social-icons">
+                  <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=y524fvz" class="social-icon instagram" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://www.facebook.com/profile.php?id=61570445822564" class="social-icon facebook" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="https://vm.tiktok.com/ZMBoG58Tm/" class="social-icon tiktok" aria-label="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                  </a>
+                </div>
+              </div>
             </div>
+            
+            <!-- Contact Form -->
+            <div class="contact-form-container">
+              <h2>Message <span class="highlight">Coach Pride</span></h2>
+              <form id="contactForm">
+                <div class="form-group">
+                  <div class="input-container">
+                    <input type="text" id="name" placeholder=" " required>
+                    <label for="name">Your Name</label>
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <div class="input-container">
+                    <input type="tel" id="phone" placeholder=" " required>
+                    <label for="phone">Phone Number</label>
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <div class="input-container">
+                    <input type="email" id="email" placeholder=" ">
+                    <label for="email">Email Address (optional)</label>
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <div class="select-container">
+                    <select id="service" required>
+                      <option value="" disabled selected></option>
+                      <option value="Graphic Design">Graphic Design</option>
+                      <option value="WhatsApp TV">WhatsApp TV</option>
+                      <option value="Social Media Boosting">Social Media Boosting</option>
+                      <option value="Affiliate Marketing">Affiliate Marketing</option>
+                      <option value="Relationship Therapy">Relationship Therapy</option>
+                      <option value="General Consultation">General Consultation</option>
+                    </select>
+                    <label for="service">Service of Interest</label>
+                    <div class="select-arrow">▼</div>
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <div class="input-container">
+                    <textarea id="message" rows="4" placeholder=" " required></textarea>
+                    <label for="message">Talk to Coach Pride</label>
+                  </div>
+                </div>
+                
+                
+                
+                <button type="submit" class="btn-primary" id="submitBtn">
+                  <span>Send Message</span>
+                  <i class="fab fa-whatsapp"></i>
+                </button>
+                
+                <div id="statusMessage" class="status-message"></div>
+              </form>
+            </div>
+          </div>
         </div>
-    </section>
-
+      </section>
+      
+      
     <section class="map-section" data-aos="fade-up">
         <div class="container">
             <h2>Find <span class="highlight">Us</span></h2>
@@ -314,13 +316,13 @@
     </section>
 
     <div class="floating-socials">
-        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
-        <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" class="social-icon tiktok"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=y524fvz " class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61570445822564" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://vm.tiktok.com/ZMBoG58Tm/" class="social-icon tiktok"><i class="fab fa-tiktok"></i></a>
     </div>
 
     <div class="floating-whatsapp">
-        <a  href="https://wa.me/250671558169?text=Hey%20Coach%20Pride!%20I%20just%20came%20across%20your%20website%20and%20felt%20inspired%20to%20reach%20out.%20I'd%20love%20to%20learn%20more%20about%20your%20coaching%20programs.%20Looking%20forward%20to%20connecting!%20Cheers%2C%20__________"  class="whatsapp-btn">
+        <a  href="https://wa.me/237671558169?text=Hey%20Coach%20Pride!%20I%20just%20came%20across%20your%20website%20and%20felt%20inspired%20to%20reach%20out.%20I'd%20love%20to%20learn%20more%20about%20your%20coaching%20programs.%20Looking%20forward%20to%20connecting!%20Cheers%2C%20__________"  class="whatsapp-btn">
             <i class="fab fa-whatsapp"></i>
             <span class="whatsapp-tooltip">Chat with Coach Pride</span>
         </a>
@@ -356,17 +358,16 @@
                     <div class="footer-column">
                         <h3>Connect</h3>
                         <div class="footer-socials">
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=y524fvz " class="social-icon-1 instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61570445822564" class="social-icon-1 facebook"><i class="fab fa-facebook-f"></i></a>                    
+                            <a href="https://vm.tiktok.com/ZMBoG58Tm/" class="social-icon-1 tiktok"><i class="fab fa-tiktok"></i></a>
+                            <a href="https://wa.me/237671558169?text=Hey%20Coach%20Pride!%20I%20just%20came%20across%20your%20website%20and%20felt%20inspired%20to%20reach%20out.%20I'd%20love%20to%20learn%20more%20about%20your%20coaching%20programs.%20Looking%20forward%20to%20connecting!%20Cheers%2C%20__________ " class="social-icon-1 whatsapp"><i class="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Coach Pride. All Rights Reserved.</p>
+                <p>&copy; 2025 Coach Pride. All Rights Reserved. | Powered By BigOne</p>
             </div>
         </div>
     </footer>
@@ -374,32 +375,110 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/assets/js/main.js"></script>
     <script>
-        function sendToWhatsApp(event) {
-            event.preventDefault(); // Prevent actual form submission
-        
+        document.addEventListener('DOMContentLoaded', function() {
+          const form = document.getElementById('contactForm');
+          const statusMessage = document.getElementById('statusMessage');
+          
+          // Add event listener for the form submission
+          form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Get form values
             const name = document.getElementById('name').value.trim();
             const email = document.getElementById('email').value.trim();
             const phone = document.getElementById('phone').value.trim();
             const service = document.getElementById('service').value;
             const message = document.getElementById('message').value.trim();
-            const newsletter = document.getElementById('newsletter').checked ? "Yes" : "No";
-        
-            const formattedMessage = `Hello Coach Pride,%0A%0AI would like to request the following service:%0A
-        - Name: ${name}%0A
-        - Email: ${email || "N/A"}%0A
-        - Phone: ${phone}%0A
-        - Service: ${service}%0A
-        - Message: ${message}%0A
-        - Subscribe to Newsletter: ${newsletter}%0A%0A
-        Thank you!`;
-        
-            const whatsappNumber = "237671558169"; // Replace with Coach Pride's number in international format without '+'
-            const whatsappURL = `https://wa.me/${whatsappNumber}?text=${formattedMessage}`;
-        
-            window.open(whatsappURL, '_blank'); // Open WhatsApp in new tab
-        }
-        </script>
-
+         
+            
+            // Validate the form
+            if (!name) {
+              showStatus('Please enter your name.', 'error');
+              return;
+            }
+            
+            if (!phone) {
+              showStatus('Please enter your phone number.', 'error');
+              return;
+            }
+            
+            if (!service) {
+              showStatus('Please select a service.', 'error');
+              return;
+            }
+            
+            if (!message) {
+              showStatus('Please enter your message.', 'error');
+              return;
+            }
+            
+            // Format the message for WhatsApp
+            const formattedMessage = `Hello Coach Pride,
+    
+    I would like to request the following service:
+    - Name: ${name}
+    - Email: ${email || "N/A"}
+    - Phone: ${phone}
+    - Service: ${service}
+    - Message: ${message}
+   
+    
+    Thank you!`;
+            
+            // Prepare the WhatsApp URL
+            const encodedMessage = encodeURIComponent(formattedMessage);
+            const whatsappNumber = "237671558169"; // Coach Pride's number
+            const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+            
+            // Show a success message
+            showStatus('Opening WhatsApp...', 'success');
+            
+            // Open WhatsApp in a new tab
+            setTimeout(() => {
+              window.open(whatsappURL, '_blank');
+              
+              // Reset the form after successful submission
+              form.reset();
+              
+              // Update label positions for empty fields
+              const inputs = form.querySelectorAll('input, textarea, select');
+              inputs.forEach(input => {
+                const label = input.nextElementSibling;
+                if (label && label.tagName === 'LABEL') {
+                  if (input.value === '' || (input.tagName === 'SELECT' && input.value === '')) {
+                    label.style.top = '12px';
+                    label.style.left = '15px';
+                    label.style.fontSize = '16px';
+                    label.style.color = '#999';
+                  }
+                }
+              });
+            }, 1000);
+          });
+          
+          // Show status message
+          function showStatus(message, type) {
+            statusMessage.textContent = message;
+            statusMessage.className = `status-message ${type} fade-in`;
+            
+            // Hide the message after 5 seconds
+            setTimeout(() => {
+              statusMessage.style.display = 'none';
+              statusMessage.className = 'status-message';
+            }, 5000);
+          }
+          
+          // Fix for select label animation
+          const selectElement = document.getElementById('service');
+          selectElement.addEventListener('change', function() {
+            if (this.value !== '') {
+              this.setAttribute('value', this.value);
+            } else {
+              this.removeAttribute('value');
+            }
+          });
+        });
+      </script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
    // Quotes array
